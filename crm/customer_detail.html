@@ -1,0 +1,12 @@
+<!-- customer_detail.html -->
+{% extends 'base.html' %}
+
+{% block title %}Customer Detail - CRM Project{% endblock %}
+
+{% block content %}
+<h2>Customer Detail</h2>
+<p>Name: {{ customer.name }}</p>
+<p>Email: {{ customer.email }}</p>
+<p>Phone: {{ customer.phone }}</p>
+<!-- Additional customer details -->
+{% endblock %}
